@@ -1,0 +1,11 @@
+default:
+  app_env: "development"
+  use_mocks: true
+  max_upload_mb: 50
+  s3_bucket: "dev-clinical-vault"
+
+production:
+  app_env: "production"
+  use_mocks: false
+  max_upload_mb: 500
+  s3_bucket: "prod-clinical-vault-encrypted"

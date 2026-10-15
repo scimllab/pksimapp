@@ -1,0 +1,26 @@
+Package: pksimapp
+Title: PK Simulation App
+Version: 0.1.0
+Authors@R: person("Pharmacometrician", "Analyst", email = "analyst@enterprise.com", role = c("aut", "cre"))
+Description: PK simulation application with AI component
+License: Proprietary
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    bslib,
+    yaml,
+    readr,
+    dplyr,
+    ggplot2,
+    stringr,
+    officer,
+    rvg,
+    rlang,
+    jsonlite,
+    haven,
+    config,
+    zip,
+    openssl,
+    tibble
+Config/roxygen2/version: 8.1.0
